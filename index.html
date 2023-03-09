@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- STYLE -->
+    <link href='CSS/style.css' rel='stylesheet'>
+    <link href="CSS/navbar.css" rel="stylesheet">
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <title>ALLZ</title>
+</head>
+
+<body>
+
+<!-- NAV BAR -->
+<section class="navbar-section">
+    <nav class="navbar show-nav">
+        <a class="logo" href="index.html"><img class="image-logo" src="Image/ALLZlogo.png"></a>
+        <div class="div-nav-links">
+            <ul id="ul-navbar">
+                <li class="nav-links"><a  href="index.html">Accueil</a></li>
+                <li class="nav-links"><a href="#">Annuaire</a></li>
+                <li class="nav-links"><a href="#">Informations Légales</a></li>
+                <div class="div-point"></div>
+                <li class="nav-links"><div class="last-link"><a class="nav-links" href="#">Connexion</a></div></li>
+            </ul>
+        </div>
+        <button class="burger"><span class="bar"></span></button>
+    </nav>
+</section>
+
+
+
+
+
+
+<!-- Divers -->
+<section class="divers-section">
+    <div><p class="number">1575</p>
+        <p>Visiteurs</p></div>
+
+    <div class="barre"></div>
+
+    <div><p class="number">77</p>
+        <p>Employés</p></div>
+
+    <div class="barre"></div>
+
+    <div><p class="number">2</p>
+        <p>Services</p></div>
+
+</section>
+
+<!-- Content -->
+<section class="content-section">
+    <h1 id="contentTitle">Aide à la recherche</h1>
+    <div class="contentPage">
+        <div class="contentSection">
+            <h3>Informations utiles</h3>
+            <p class="space">Les accents et les majuscules ne sont pas significatifs, vous pouvez indifféremment les utiliser ou non.</p>
+            <p class="space">Si vous ne remplissez l'un ou tout les champs disponibles dans la recherche, le site vous montrera par défaut toute les possibilités.</p>
+        </div>
+
+        <div class="contentSection">
+            <h3>Comment fonctionne la recherche de personne</h3>
+            <p class="space">La recherche s'effectue sur le début du nom de la personne suivie de son prénom :</p>
+            <ul>
+                <li><p><b>mar</b> recherche toutes les personnes dont le nom commence par <b>mar</b></p></li>
+
+                <li><p><b>martin m</b> recherche toutes les personnes nommées <b>martin</b> dont le prénom commence par <b>m</b></p></li>
+
+                <li><p>Il est possible d'utiliser le caractère * comme joker</p>
+                    <p>c'est à dire que mar* m recherche toutes les personnes dont le nom commence par mar et dont le prénom commence par m</p></li>
+
+                <li><p>Pour les noms composés, le séparateur entre la particule et le nom n'est pas normalisé, il se peut que ce soit un tiret, un blanc, un souligné. Utilisez le joker * pour couvrir tous les cas :</p>
+                    <p><b>le*corbusier</b> couvre <b>lecorbusier</b>, <b>le corbusier</b>, <b>le-corbusier</b> et <b>le_corbusier</b></p>
+                    <p>si votre recherche est toujours infructueuse, recherchez sur une partie du nom, par exemple : *corbus</p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="contentSection">
+            <h3>Comment fonctionne le recherche de services ?</h3>
+            <p>Choisissez simplement dans la recherche le service que vous souhaitez parmi ceux proposé.</p>
+        </div>
+    </div>
+</section>
+
+
+
+<div>
+    <!-- <div class="Categorie">
+        <select name="Categorie" id="Categorie">
+            <option value="">--Toutes les categories--</option>
+            <option value="categorie1">categorie1</option>
+            <option value="categorie2">categorie2</option>
+            <option value="categorie3">categorie3</option>
+            <option value="categorie4">categorie4</option>
+            <option value="categorie5">categorie5</option>
+            <option value="categorie6">categorie6</option>
+        </select>
+    </div>
+
+    <div class="container">
+        <div class="search-box">
+            <input type="text" class="search-box-input" placeholder="What are you looking for ?">
+            <button class="search-box-btn">
+                <i class="search-box-icon material-icons">search</i>
+            </button>
+        </div>
+    </div> -->
+</div>
+
+
+<!-- FOOTER -->
+
+<?php require_once('footer.html') ?>
+
+</body>
+
+</html>
