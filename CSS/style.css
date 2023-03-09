@@ -6,7 +6,7 @@
 
 .content-section {
     font-family: 'Lato', Arial, serif;
-    padding: 50px 50px 0 50px;
+    padding: 50px 50px 0 130px;
 }
 
 .content-section h1 {
@@ -18,7 +18,7 @@
 .content-section h3 {
     font-size: 1.2rem;
     font-weight: 700;
-    margin-left: 15px;
+    margin-left: 20px;
     margin-bottom: 1rem;
     margin-top: 1rem;
 }
